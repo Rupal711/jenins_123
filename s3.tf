@@ -9,5 +9,5 @@ resource "aws_s3_bucket" "example" {
 resource "aws_s3_object" "object" {
   bucket = "my-tf-test-bucket"
   key    = "index.html"
-  source = "/Users/mac/code/jenkins_123/jenins_123/index.html"
+  source = "index.html"
 }
