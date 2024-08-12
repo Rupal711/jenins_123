@@ -1,11 +1,4 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.60.0"
-    }
-  }
-}
+
 
 #Connect with aws account using secret_key and access_id 
 provider "aws" {
