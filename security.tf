@@ -13,8 +13,8 @@ resource "aws_security_group" "security2" {
   }
   ingress {
     description      = "port 443 "
-    from_port        =  -1
-    to_port          = -1
+    from_port        =  0
+    to_port          =  0
     protocol         = "-1"
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
