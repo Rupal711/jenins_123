@@ -13,7 +13,7 @@ resource "tls_private_key" "example" {
 }
 
 resource "aws_key_pair" "genrate_key" {
-  key_name   = "test"
+  key_name   = "test1"
   public_key = tls_private_key.example.public_key_openssh
   
 }
